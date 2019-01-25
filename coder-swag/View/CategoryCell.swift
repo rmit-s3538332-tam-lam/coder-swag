@@ -15,7 +15,10 @@ class CategoryCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    func updateView(category: Category){
+        self.categoryImage.image = UIImage(named: category.imageName)
+        self.categoryTitle.text = category.title
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
