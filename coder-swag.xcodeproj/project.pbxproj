@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B8E6D9AF21FB1F4200E55AD8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E6D9AE21FB1F4200E55AD8 /* Product.swift */; };
+		B8E6D9B121FB27B800E55AD8 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E6D9B021FB27B800E55AD8 /* ProductsVC.swift */; };
 		B8F4EF7D21FAAD6600864E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F4EF7C21FAAD6600864E21 /* AppDelegate.swift */; };
 		B8F4EF7F21FAAD6600864E21 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F4EF7E21FAAD6600864E21 /* CategoriesVC.swift */; };
 		B8F4EF8221FAAD6600864E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F4EF8021FAAD6600864E21 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		B8E6D9AE21FB1F4200E55AD8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B8E6D9B021FB27B800E55AD8 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		B8F4EF7921FAAD6600864E21 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F4EF7C21FAAD6600864E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8F4EF7E21FAAD6600864E21 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B8F4EF7E21FAAD6600864E21 /* CategoriesVC.swift */,
+				B8E6D9B021FB27B800E55AD8 /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				B8F4EF8521FAAD6600864E21 /* coder_swag.xcdatamodeld in Sources */,
 				B8F4EF9B21FAE21E00864E21 /* DataService.swift in Sources */,
 				B8F4EF7D21FAAD6600864E21 /* AppDelegate.swift in Sources */,
+				B8E6D9B121FB27B800E55AD8 /* ProductsVC.swift in Sources */,
 				B8F4EF9D21FAEBED00864E21 /* ProductCell.swift in Sources */,
 				B8F4EF9521FAB4FD00864E21 /* CategoryCell.swift in Sources */,
 			);

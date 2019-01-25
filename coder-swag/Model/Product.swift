@@ -8,9 +8,9 @@
 
 import Foundation
 struct Product{
-    private var title: String
-    private var imageName:String
-    private var price: String
+    private(set) public var title: String
+    private(set) public var imageName:String
+    private(set) public var price: String
     init(title:String, price: String, imageName: String){
         self.title = title
         self.imageName = imageName
